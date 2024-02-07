@@ -1,0 +1,52 @@
+.all {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.content {
+}
+
+body {
+  background: rgb(204, 204, 204);
+  width: 21cm;
+  height: 29.7cm;
+  margin: 0 auto;
+}
+
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  position: relative;
+}
+
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+}
+
+@page {
+  size: 21cm 29.7cm;
+  margin: 0mm;
+}
+
+.header-container {
+  display: grid;
+  columns: auto;
+  width: 100%;
+  height: 3cm;
+}
+
+.left-header {
+  padding: 0.7cm;
+  grid-column: 1;
+  align-items: left;
+}
+
+.right-header {
+  text-align: left;
+  align-items: right;
+  grid-column: 4;
+  padding: 0.7cm;
+}
