@@ -3,6 +3,9 @@ em {
   font-style: normal;
   color: black;
 }
+p {
+  margin: 0;
+}
 
 .all {
   font-family: Helvetica, sans-serif;
