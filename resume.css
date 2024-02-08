@@ -8,18 +8,22 @@ p {
 }
 
 .all {
-  font-family: Helvetica, sans-serif;
+  font-family: Calibri, sans-serif;
   color: black;
 }
 
 .content {
 }
 
+.major-contact {
+  font-size: 14pt;
+}
+
 .section-header {
   text-align: center;
   font-size: 18pt;
-  margin-top: 0.2cm;
-  margin-bottom: 0.2cm;
+  margin-top: 0.3cm;
+  margin-bottom: 0.1cm;
 }
 
 .section {
@@ -39,6 +43,7 @@ p {
 .job-header {
   margin-left: 0.7cm;
   margin-right: 0.7cm;
+  margin-top: 0.2cm;
   margin-bottom: 0cm;
 }
 
@@ -61,10 +66,11 @@ p {
   text-align: right;
 }
 
+.internship-action {
+  width: 90%;
+  font-size: 11pt;
+}
 .internship-company {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   font-weight: bold;
 }
 
@@ -76,11 +82,6 @@ p {
 .result {
   font-size: 12pt;
   color: black;
-}
-
-.internship-action {
-  width: 90%;
-  font-size: 11pt;
 }
 
 .project {
