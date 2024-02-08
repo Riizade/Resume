@@ -26,6 +26,11 @@ p {
   margin: 0.2cm;
 }
 
+.section-body {
+  margin-left: 1cm;
+  margin-right: 1cm;
+}
+
 .summary {
   margin-left: 2.5cm;
   margin-right: 2.5cm;
@@ -78,9 +83,18 @@ p {
   font-size: 11pt;
 }
 
+.project {
+  margin-bottom: 0.2cm;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+}
+
 h3 {
-  margin-top: 0.1cm;
-  margin-bottom: 0.1cm;
+  margin-top: 0.05cm;
+  margin-bottom: 0.05cm;
 }
 
 ul {
