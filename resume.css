@@ -16,7 +16,8 @@ p {
 }
 
 .major-contact {
-  font-size: 14pt;
+  font-size: 24pt;
+  font-weight: bold;
 }
 
 .section-header {
@@ -68,15 +69,15 @@ p {
 
 .internship-action {
   width: 90%;
-  font-size: 11pt;
+  font-size: 12pt;
 }
 .internship-company {
   font-weight: bold;
 }
 
 .action {
-  font-size: 11pt;
-  color: #222222;
+  font-size: 12pt;
+  color: black;
 }
 
 .result {
