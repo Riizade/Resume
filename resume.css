@@ -1,9 +1,114 @@
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+}
+p {
+  margin: 0;
+}
+
 .all {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Calibri, sans-serif;
   color: black;
 }
 
 .content {
+}
+
+.major-contact {
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.section-header {
+  text-align: center;
+  font-size: 18pt;
+  margin-top: 0.3cm;
+  margin-bottom: 0.1cm;
+}
+
+.section {
+  margin: 0.2cm;
+}
+
+.section-body {
+  margin-left: 1cm;
+  margin-right: 1cm;
+}
+
+.summary {
+  margin-left: 2.5cm;
+  margin-right: 2.5cm;
+}
+
+.job-header {
+  margin-left: 0.7cm;
+  margin-right: 0.7cm;
+  margin-top: 0.2cm;
+  margin-bottom: 0cm;
+}
+
+.job-body {
+  margin-left: 1cm;
+  margin-right: 1cm;
+}
+
+.lr-container {
+  display: grid;
+  columns: auto;
+}
+
+.left {
+  grid-column: 1;
+}
+
+.right {
+  grid-column: 2;
+  text-align: right;
+}
+
+.internship-action {
+  width: 90%;
+  font-size: 12pt;
+}
+.internship-company {
+  font-weight: bold;
+}
+
+.action {
+  font-size: 12pt;
+  color: black;
+}
+
+.result {
+  font-size: 12pt;
+  color: black;
+}
+
+.project {
+  margin-bottom: 0.2cm;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+}
+
+h3 {
+  margin-top: 0.05cm;
+  margin-bottom: 0.05cm;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1cm;
+  padding: 0;
+}
+
+li {
+  margin-top: 0.05cm;
+  margin-bottom: 0.05cm;
 }
 
 body {
@@ -35,7 +140,7 @@ page[size="A4"] {
   display: grid;
   columns: auto;
   width: 100%;
-  height: 3cm;
+  height: 2cm;
 }
 
 .left-header {
