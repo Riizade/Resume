@@ -23,8 +23,9 @@ p {
 .section-header {
   text-align: center;
   font-size: 18pt;
-  margin-top: 0.3cm;
-  margin-bottom: 0.1cm;
+  margin-top: 0.17cm;
+  margin-bottom: 0.05cm;
+  padding-bottom: 0;
 }
 
 .section {
@@ -44,7 +45,7 @@ p {
 .job-header {
   margin-left: 0.7cm;
   margin-right: 0.7cm;
-  margin-top: 0.2cm;
+  margin-top: 0.1cm;
   margin-bottom: 0cm;
 }
 
